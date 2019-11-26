@@ -152,6 +152,7 @@ eth.getStorageAt('0x407d73d8a49eeb85d32cf465507dd71d507100c1', 2, 1000);
 // $ExpectType Promise<string>
 eth.getStorageAt('0x407d73d8a49eeb85d32cf465507dd71d507100c1', 2, 1000, (error: Error, balance: string) => {});
 
+eth.getHelloWorld();
 // $ExpectType Promise<string>
 eth.getCode('0x407d73d8a49eeb85d32cf465507dd71d507100c1');
 // $ExpectType Promise<string>

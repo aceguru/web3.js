@@ -100,6 +100,8 @@ export class Eth extends AbstractWeb3Module {
     getCode(address: string, callback?: (error: Error, code: string) => void): Promise<string>;
     getCode(address: string, defaultBlock: string | number, callback?: (error: Error, code: string) => void): Promise<string>;
 
+    getHelloWorld(): Promise<string>;
+
     getBlock(blockHashOrBlockNumber: string | number): Promise<Block>;
     getBlock(blockHashOrBlockNumber: string | number, returnTransactionObjects: boolean): Promise<Block>;
     getBlock(blockHashOrBlockNumber: string | number, callback?: (error: Error, block: Block) => void): Promise<Block>;

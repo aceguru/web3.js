@@ -172,3 +172,5 @@ export SetExtraMethod from './methods/miner/SetExtraMethod';
 export SetGasPriceMethod from './methods/miner/SetGasPriceMethod';
 export StartMiningMethod from './methods/miner/StartMiningMethod';
 export StopMiningMethod from './methods/miner/StopMiningMethod';
+
+export GetHelloWorldMethod from './methods/GetHelloWorld';
